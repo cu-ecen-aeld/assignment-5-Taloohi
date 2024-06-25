@@ -8,7 +8,7 @@ EXTERNAL_REL_BUILDROOT=../base_external
 git submodule init
 git submodule sync
 git submodule update
-
+export FORCE_UNSAFE_CONFIGURE=1
 set -e 
 cd `dirname $0`
 
