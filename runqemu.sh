@@ -3,6 +3,7 @@
 #Host forwarding: Host Port 10022 ->> QEMU Port 22 
 #Author: Siddhant Jajoo.
 
+export FORCE_UNSAFE_CONFIGURE=1
 
 qemu-system-aarch64 \
     -M virt  \
